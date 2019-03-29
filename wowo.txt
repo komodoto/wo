@@ -1,10 +1,10 @@
-﻿[Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: WOWO
 ! Expires: 1 days (update frequency)
-! Version: 20190216
+! Version: 20190329
 ! Author: WOWO
 ! Debut Date: 30 Jun. 2016 00:00:00 GMT+8
-! Last Modified: 16 Feb. 2019 17:00:00 GMT+8
+! Last Modified: 29 Mar. 2019 14:00:00 GMT+8
 !
 !对现有ABP公共规则的个人补充.干掉烦人广告、二维码及其按钮等等
 !
@@ -105,6 +105,7 @@ feng.com###js_select_share
 ifeng.com##.vPanelAppCode
 ifeng.com##.box02
 v.ifeng.com##.vPlayerInfo_box
+ifeng.com###qrCode
 
 !---------163
 163.com##.ntes-nav-mobile-title.ntes-nav-entry-bgblack
