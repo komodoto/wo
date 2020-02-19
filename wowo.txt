@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: WOWO
 ! Expires: 1 days (update frequency)
-! Version: 20190329
+! Version: 20200218
 ! Author: WOWO
 ! Debut Date: 30 Jun. 2016 00:00:00 GMT+8
-! Last Modified: 29 Mar. 2019 14:00:00 GMT+8
+! Last Modified: 18 Feb. 2020 12:00:00 GMT+8
 !
 !对现有ABP公共规则的个人补充.干掉烦人广告、二维码及其按钮等等
 !
@@ -136,6 +136,10 @@ ifeng.com###qrCode
 163.com||img1.cache.netease.com/f2e/www/index2014/images/sprite_dw2.png
 money.163.com##.qrcode_1301
 news.163.com##.ntes-nav-select-title
+163.com||mimg.127.net/p/js6/theme/build/skyblue/img/59c64e8d8e5a5ff537116b8104fdd4eb592c7da7.png$image
+mail.163.com###_mail_tabitem_3_10
+mail.163.com###_mail_tabitem_2_5
+mail.163.com##.gWel-inner
 
 !---------baidu
 baidu.com##.qrcode-item.qrcode-item-1
@@ -209,6 +213,19 @@ baidu.com##.extra-btn.feedback-btn
 baidu.com###div.marchActivityTip-content
 jingyan.baidu.com##.wgt-feeds-video
 baidu.com#?#.c-container:-abp-has(span:-abp-contains(百家号))
+www.baidu.com##.qrcodeCon
+www.baidu.com##a.mnav:nth-of-type(3)
+baidu.com##.app-side-ad
+baidu.com###follow-btns
+!2020/2/18 https://pan.baidu.com
+pan.baidu.com##.module-cardimport-mask
+pan.baidu.com##.module-content
+pan.baidu.com##.norecognition.module-cardimport-box
+pan.baidu.com##dd.open-enable.AuPKyz.g-clearfix:nth-of-type(1)
+pan.baidu.com##dd.open-enable.AuPKyz.g-clearfix:nth-of-type(2)
+pan.baidu.com##.gOIbzPb
+/alog.min.js
+/alog/dp.
 !----百家号
 
 
@@ -389,7 +406,11 @@ mail.sina.com.cn##.connMod
 mail.sina.com.cn##.svShareIco
 mail.sina.com.cn##.cn_applsConn.J_apps
 mail.sina.com.cn##.platform_sidebar
-###greeting
+sina.com.cn###greeting
+sina.com.cn##li.tabStatic:nth-of-type(4)
+sina.com.cn##.codeBox.normal
+sina.com.cn##.connMod
+sina.com.cn##.extendAd
 !---------mail.163网易邮箱
 ##.gWel-mailInfo-list
 ##.gWel-weather-info
@@ -398,6 +419,11 @@ mail.sina.com.cn##.platform_sidebar
 ##.gWel-weather-info
 ##.gWel-weather-address
 ##.gWel-tabs
+||mimg.127.net/p/js6/theme/build/skyblue/img/59c64e8d8e5a5ff537116b8104fdd4eb592c7da7.png$image
+mail.163.com###_mail_tabitem_3_10
+||mimg.127.net/p/js6/theme/build/skyblue/img/59c64e8d8e5a5ff537116b8104fdd4eb592c7da7.png$image
+mail.163.com###_mail_tabitem_2_5
+mail.163.com##.gWel-inner
 !---------tianya
 tianya.cn##.scroll-btn
 !---------ithome.com
@@ -556,10 +582,10 @@ v.smtcdns.com
 !虎牙
 p2p.huya.com
 !---------goudidiao.com
-##.row:nth-of-type(4)
-##.row:nth-of-type(6)
-##.navbar-default.navbar-fixed-top.navbar
-##.support.row
+goudidiao.com##.row:nth-of-type(4)
+goudidiao.com##.row:nth-of-type(6)
+goudidiao.com##.navbar-default.navbar-fixed-top.navbar
+goudidiao.com##.support.row
 !---------pwkm.com
 pwkm.com###divStayTopLeft
 !---------t66y.com
